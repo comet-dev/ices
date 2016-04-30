@@ -1,2 +1,2 @@
-# dust-particles
-Dusts (short for dust-particles) are contained formats that simplifies distribution and installation.
+# Ices
+Ices are contained formats that simplifies distribution and installation for CometJS.
