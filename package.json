@@ -1,0 +1,30 @@
+{
+  "name": "ices",
+  "version": "1.0.0",
+  "description": "Ices are contained formats that simplifies distribution and installation for CometJS.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comet-dev/ices.git"
+  },
+  "keywords": [
+    "ices",
+    "cometice",
+    "icejs"
+  ],
+  "author": "Moses Grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comet-dev/ices/issues"
+  },
+  "homepage": "https://github.com/comet-dev/ices#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
