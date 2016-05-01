@@ -24,10 +24,15 @@
     "url": "https://github.com/comet-dev/ices/issues"
   },
   "homepage": "https://github.com/comet-dev/ices#readme",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
   "devDependencies": {
-   "CometJS": "^1.0.3" 
+    "jshint": "^2.8.1",
+    "browserify": "^13.0.0",
+    "gulp":"^3.9.1",
+    "grunt":"^0.4.0-rc8",
+    "CometJS":"^1.0.4"
+  },
+  "dependencies": {
+    "client":"^1.0.0",
+    "server":"^1.0.0"
   }
 }
