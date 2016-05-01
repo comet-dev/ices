@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint ices.js"
+    "test": "./node_modules/CometJS/bin/CometJS ices.js"
   },
   "repository": {
     "type": "git",
