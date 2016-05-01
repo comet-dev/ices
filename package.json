@@ -32,7 +32,7 @@
     "CometJS":"^1.0.4"
   },
   "dependencies": {
-    "client":"^1.0.0",
-    "server":"^1.0.0"
+    "client":"^0.0.1",
+    "server":"^0.0.1"
   }
 }
