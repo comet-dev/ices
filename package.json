@@ -26,5 +26,8 @@
   "homepage": "https://github.com/comet-dev/ices#readme",
   "dependencies": {
     "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+   "CometJS": "^1.0.3" 
   }
 }
