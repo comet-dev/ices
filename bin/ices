@@ -1,1 +1,7 @@
 #!/usr/bin/env node
+var ices;
+
+ices = function(app){
+  ices.add("ices");
+  ices.specify("packages")&&ices.depend("CometJS");
+}
