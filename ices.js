@@ -12,7 +12,7 @@ ices.prototype.create = function(){
     var filename = ".ices";
     var getfile = document.createElement("a href");
     getfile.download = filename;
-    getfile.href = window.URL.display
+    getfile.href = window.URL.display;
     getfile.onclick = collapseElement.destroy();
     getfile.click();
   }
