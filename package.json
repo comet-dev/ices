@@ -6,12 +6,23 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "./node_modules/jshint/bin/jshint ices.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comet-dev/ices.git"
+  },
+   "devDependencies": {
+    "jshint": "^2.8.1",
+    "browserify": "^13.0.0",
+    "gulp":"^3.9.1",
+    "grunt":"^1.0.1",
+    "CometJS":"^1.0.3"
+  },
+  "dependencies": {
+    "commander":"^2.9.0",
+    "lodash":"4.11.2"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint ices.js"
   },
   "keywords": [
     "ices",
@@ -24,15 +35,5 @@
     "url": "https://github.com/comet-dev/ices/issues"
   },
   "homepage": "https://github.com/comet-dev/ices#readme",
-  "devDependencies": {
-    "jshint": "^2.8.1",
-    "browserify": "^13.0.0",
-    "gulp":"^3.9.1",
-    "grunt":"^1.0.1",
-    "CometJS":"^1.0.3"
-  },
-  "dependencies": {
-    "commander":"^2.9.0",
-    "lodash":"4.11.2"
-  }
+ 
 }
