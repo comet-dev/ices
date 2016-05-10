@@ -3,7 +3,7 @@
 </p>
 # Ices
 
-Ices are contained formats that simplifies distribution and installation for CometJS.
+Ices are contained formats that simplifies distribution and installation for CometJS, like RubyGems.
 
 ## Get Started
 npm install:
