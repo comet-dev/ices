@@ -1,6 +1,6 @@
 {
   "name": "ices",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ices are contained formats that simplifies distribution and installation for CometJS.",
   "main": "index.js",
   "directories": {
