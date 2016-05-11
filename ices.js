@@ -7,7 +7,7 @@ ices.prototype.create = function(){
   var comet = require('comet');
   
   ices(this.getPackages.comet.organize());
-  ices.save = function(icesFile){
+  save = function(icesFile){
     ices.prompt("Would you like to save your .ices file?");
     var filename = ".ices";
     var getfile = document.createElement("a href");
@@ -17,4 +17,5 @@ ices.prototype.create = function(){
     getfile.click();
   }
 }
+ices.prototype.create();
 
