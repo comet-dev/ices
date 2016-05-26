@@ -1,6 +1,6 @@
 {
   "name": "ices",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "description": "Ices are contained formats that simplifies distribution and installation for CometJS.",
   "main": "index.js",
   "directories": {
@@ -15,7 +15,7 @@
     "browserify": "^13.0.0",
     "gulp":"^3.9.1",
     "grunt":"^1.0.1",
-    "CometJS":"^1.0.3"
+    "CometJS":"^0.3.2-alpha"
   },
   "dependencies": {
     "commander":"^2.9.0",
