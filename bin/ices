@@ -1,7 +1,20 @@
 #!/usr/bin/env node
-var ices;
+var ices = require('./ices.js');
 
-ices = function(app){
+ices.create = function(app){
   ices.add("ices");
-  ices.specify("packages")&&ices.depend("CometJS");
+  ices.specify(process.argv) && ices.depend("CometJS");
+  
+ app.ices.install('ices');
+ app.ices.isExecutable = true;
+ loadIces = function(){
+   app.ices.load('ices.run', 'executable');
+   app.ices.load('ices.file', 'dependencies');
+   app.ices.load('ices.build', 'repository');
+   
+   app.install('.ices');
+   app.run('.ices', 'isExecutable');
+ }
 }
+ices.create('').prompt("Specify your packages.");
+
