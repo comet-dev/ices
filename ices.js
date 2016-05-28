@@ -1,7 +1,7 @@
 var ices = require('.ices');
 ices.contain("Distributable Packages");
 
-ices.prototype.create = function(){
+ices.prototype.create = (function(){
   var getPackages = this.getPackages;
   var organize = require('organize');
   var comet = require('comet');
@@ -16,6 +16,7 @@ ices.prototype.create = function(){
     getfile.onclick = collapseElement.destroy();
     getfile.click();
   }
-}
-ices.prototype.create();
+  save('');
+})(ices);
+
 
