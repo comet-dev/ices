@@ -10,7 +10,7 @@ ices.prototype.create = (function(){
   save = function(icesFile){
     ices.prompt("Would you like to save your .ices file?");
     var filename = ".ices";
-    var getfile = document.createElement("a href");
+    var getfile = document.UI.createElement("a href");
     getfile.download = filename;
     getfile.href = window.URL.display;
     getfile.onclick = collapseElement.destroy();
