@@ -1,1 +1,1 @@
-
+var ices = require('.../vendor/')
