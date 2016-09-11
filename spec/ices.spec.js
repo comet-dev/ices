@@ -1,1 +1,2 @@
-var ices = require('.../vendor/')
+var ices = require('.../vendor/lib/executable.js');
+
