@@ -19,7 +19,8 @@ Install and remove builds and plugins using ```ices install``` and ```ices remov
  ices remove build-name
 ```
 Done! Your builds and plugins are successfully installed to the PATH of your choice. Add it to your repository!
-
+# Dotfile
+Add the dotfile to your repo: ```.ices``` Check out the wiki to learn the commands!
 ## Contributing
  - Npm install ices and edit/add files
  - Make a pull request
