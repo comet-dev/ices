@@ -19,6 +19,8 @@ ices.create = function(app){
  app.ices.isExecutable = true;
  
  loadIces = function(){
+   var install = ins.prototype.set;
+   var run = window.display;
    app.ices.load('ices.run', 'executable');
    app.ices.load('ices.file', 'dependencies');
    app.ices.load('ices.build', 'repository');
@@ -27,5 +29,5 @@ ices.create = function(app){
    app.run('.ices', 'isExecutable');
  }
 }
-ices.create('').prompt("Specify your packages.");
+create('New Build').prompt("Specify your packages.");
 
