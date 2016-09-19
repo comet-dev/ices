@@ -17,10 +17,14 @@ ices.prototype.create = (function(){
   var getPackages = this.getPackages;
   var organize = require('organize');
   var comet = require('comet');
+  
+  
   /** @protected **/
   ices(this.getPackages.comet.organize());
+  
   save = function(icesFile){
     ices.prompt("Would you like to save your .ices file?");
+    
     var filename = ".ices";
     var getfile = document.createElement("a href");
     getfile.download = filename;
@@ -28,7 +32,8 @@ ices.prototype.create = (function(){
     getfile.onclick = collapseElement.destroy();
     getfile.click();
   }
+  
   save('');
-})(ices);
+});
 
 
