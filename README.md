@@ -3,7 +3,7 @@
 </p>
 # Ices
 
-Ices are contained formats that simplifies distribution and installation for CometJS. The better part is that they are also used for builds and CometJS plugins. 
+Ices are contained formats that simplifies distribution and installation for CometJS. The better part is that they are also used for builds, modules, apis, components and CometJS plugins. 
 
 ## Get Started
 npm install and save as devDependency:
