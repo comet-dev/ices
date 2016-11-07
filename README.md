@@ -23,6 +23,6 @@ Done! Your builds and plugins are successfully installed to the PATH of your cho
 ## Dotfile
 Add the dotfile to your repo: ```.ices``` Ices handles your repository, whenever you install a build, all the packages and plugins are inset into the dotfile. Check out the wiki to learn the commands!
 ## Contributing
- - Npm install ices and edit/add files
+ - Fork
  - Make a pull request
  - Issues? Bugs? Report it!
